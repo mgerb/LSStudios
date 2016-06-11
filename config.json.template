@@ -1,0 +1,15 @@
+{
+    "database": {
+        "enabled": false,
+        "url": "",
+        "database": "",
+        "username": "",
+        "password": ""
+    },
+    "api": {
+        "key": ""
+    },
+    "server": {
+        "port": "80"
+    }
+}
