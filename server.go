@@ -10,5 +10,5 @@ func main() {
     router := httprouter.New()
     router.ServeFiles("/*filepath", http.Dir("./public/"))
     
-    log.Println(http.ListenAndServe(":8080", router))
+    log.Println(http.ListenAndServe(":80", router))
 }
