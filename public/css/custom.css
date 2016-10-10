@@ -13,4 +13,9 @@ label {
     letter-spacing: 0.1em;
     margin-bottom: 20px;
 }
+@media (max-width: 1100px) {
+.intro {
+background-attachment: scroll;
+}
+}
 
